@@ -1,0 +1,38 @@
+header {
+    height: 50px;
+    background-color: blueviolet;
+}
+header > h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+.red-divs {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    margin-right: 20px;
+    text-align: center;
+}
+.blue-div {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+    margin-right: 20px;
+    text-align: center;
+}
+.red-divs > span {
+    font-size: 50px;
+}
+.blue-div > span {
+    font-size: 50px;
+}
