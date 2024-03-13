@@ -1,38 +1,75 @@
 header {
     height: 50px;
     background-color: blueviolet;
+
 }
 header > h1 {
     text-align: center;
     font-size: 45px;
     font-weight: bolder;
 }
+
+/* container */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    padding: 20px;
+    padding: 60px;
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(232, 130, 130);
 }
 .red-divs {
-    position: relative;
     width: 200px;
     height: 400px;
     background-color: red;
-    margin-right: 20px;
-    text-align: center;
-}
-.blue-div {
-    position: absolute;
-    width: 200px;
-    height: 400px;
-    background-color: blue;
-    margin-right: 20px;
+    margin-right: 60px;
     text-align: center;
 }
 .red-divs > span {
     font-size: 50px;
+    color: white;
+}
+
+
+
+/* container-1 */
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.blue-div {
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+    margin-right: 60px;
+    text-align: center;
 }
 .blue-div > span {
     font-size: 50px;
+    color: white;
 }
+
+/* section-1 */
+.section-1 {
+    background-color: rgb(232, 130, 130);
+    /* position: fixed; */
+    width: 100%;
+}
+
+/* img */
+.img {
+    display: block;
+    margin-left:50%;
+    margin-right:50%;
+    width: 50%;
+}
+
+/* container-2 */
