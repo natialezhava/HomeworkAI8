@@ -21,8 +21,10 @@ header {
 .main {
    padding-top: 60px;
    background-color: bisque;
-   /* position: fixed; */
+   position: sticky;
+   top: 5%;
    width: 100%;
+   z-index: 15;
 }
 .main-div1 {
     display: flex;
@@ -138,7 +140,4 @@ img {
     top: 20%;
     left: 77%;
     z-index: 93;
-}
-img {
-    /* position: fixed; */
 }
