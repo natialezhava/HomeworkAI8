@@ -1,75 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.color {
+    background-color: rgb(23, 89, 94) !important;
+}
+.color1 {
+    background-color: rgb(17, 61, 26) !important
+}
 header {
     height: 50px;
     background-color: blueviolet;
-
-}
-header > h1 {
-    text-align: center;
-    font-size: 45px;
     font-weight: bolder;
-}
-
-/* container */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    padding: 60px;
-    position: relative;
-    margin-top: 20px;
-    background-color: rgb(232, 130, 130);
-}
-.red-divs {
-    width: 200px;
-    height: 400px;
-    background-color: red;
-    margin-right: 60px;
+    font-size: 40px;
     text-align: center;
-}
-.red-divs > span {
-    font-size: 50px;
-    color: white;
-}
-
-
-
-/* container-1 */
-.container-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-.blue-div {
-    width: 200px;
-    height: 400px;
-    background-color: blue;
-    margin-right: 60px;
-    text-align: center;
-}
-.blue-div > span {
-    font-size: 50px;
-    color: white;
-}
-
-/* section-1 */
-.section-1 {
-    background-color: rgb(232, 130, 130);
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
+    z-index: 100;
+}
+.main {
+   padding-top: 60px;
+   background-color: bisque;
+   /* position: fixed; */
+   width: 100%;
+}
+.main-div1 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    gap: 50px;
+    position: relative;
+    padding: 20px;
+    height: 600px;
+    align-items: center;
+    background-color: bisque;
+    margin: 30px;
+}
+.top-divs {
+    width: 200px;
+    height: 400px;
+    background-color: brown;
+}
+.two {
+    position: absolute;
+    background-color: blue !important;
+    top: 200px;
+    gap: 10px;
+    left: 26%;
+}
+.four {
+    position: absolute;
+    background-color: blue !important;
+    top: 200px;
+    gap: 10px;
+    margin-right: 20px;
+}
+.six {
+    position: absolute;
+    background-color: blue !important;
+    top: 200px;
+    gap: 10px;
+    left: 60%;
+}
+.top-divs > p {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 50%;
+}
+img {
+    display: table;
+    margin: 0 auto;
 }
 
-/* img */
-.img {
-    display: block;
-    margin-left:50%;
-    margin-right:50%;
-    width: 50%;
+/* || section 2 */
+.main2 {
+    background-color: rgb(88, 88, 88);
+}
+.main-div2 {
+    background-color: white;
+    display: flex;
+    gap: 0;
+    position: relative;
+    height: 900px;
+}
+.main-div2 > div {
+    width: 200px;
+    height: 400px;
+    background-color: brown;
+}
+.main-div2 > div > p {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 50%;
 }
 
-/* container-2 */
+.divs1 {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    z-index: 99;
+}
+.divs2 {
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    z-index: 98;
+}
+.divs3 {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    z-index: 97;
+}
+.divs4 {
+    position: absolute;
+    top: 50%;
+    z-index: 96;
+}
+.divs5 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    z-index: 95;
+}
+.divs6 {
+    position: absolute;
+    top: 30%;
+    left: 67%;
+    z-index: 94;
+}
+.divs7 {
+    position: absolute;
+    top: 20%;
+    left: 77%;
+    z-index: 93;
+}
+img {
+    /* position: fixed; */
+}
